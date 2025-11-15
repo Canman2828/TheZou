@@ -1,45 +1,32 @@
-# Unity generated folders
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/MemoryCaptures/
-/AssetBundles/
-/Assets/AssetStoreTools/
+# === Unity core ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
 
-# Unity generated files
-*.unityproj
+# Crash/bug logs
+*.log
+
+# Visual Studio / JetBrains
+.vs/
 *.csproj
 *.sln
-*.suo
 *.user
-*.userprefs
+*.unityproj
 *.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.DS_Store
-*.meta
-*.exe
-*.dll
-*.mdb
-*.so
-*.a
-*.lib
-*.bin
-*.apk
-*.ipa
-*.app
+*.suo
+*.sln*
+*.userprefs
+*.ide
 
-# Visual Studio / Rider
-.vs/
-.idea/
-
-# macOS
+# OS junk
 .DS_Store
-
-# Windows
 Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
